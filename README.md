@@ -1,37 +1,9 @@
-## Welcome to GitHub Pages
+# Ready-Bootstrap-Dashboard
+![](https://i.imgur.com/8hYeuW3.png)
+Free Bootstrap 4 Admin Dashboard
 
-You can use the [editor on GitHub](https://github.com/shoner/coursera-test/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+If you are a developer or website owner who needs to work on the dashboard and want to have a beautiful design while doing it, the Ready Bootstrap Dashboard is for you.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Ready Bootstrap Dashboard is a Boostrap 4 Dashboard kit we developed and shared for free that you can use for your next web project.
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/shoner/coursera-test/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+We make it with a minimalist design, fast, and easy to use. There is a sidebar on the left, a top menu, and a main panel where you can put the components you need. Available components you need include cards, charts, notifications, maps, buttons, inputs and more.
