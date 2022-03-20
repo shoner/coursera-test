@@ -1,1 +1,35 @@
-theme: jekyll-theme-cayman
+# Site Info
+title: ""
+tagline: ""
+description: ""
+baseurl: ""
+url: https://shoner.github.io/coursera-test
+logo: ""
+
+# Site configurations
+#gems:
+#  - jekyll-paginate
+#markdown: kramdown
+#kramdown:
+#  input: GFM
+#excerpt_separator: "<!-- more -->"
+sass:
+  style: compressed
+  sass_dir: _scss
+#paginate:
+#paginate_path: ''
+#permalink: pretty
+
+version: 1.0.0
+
+# About/contact
+author:
+  name: Shoner Shin
+  description: Shoner Shin
+  contact:
+    # linkedin:  https://www.linkedin.com/in/
+    github:    https://github.com/shoner
+    #    facebook:
+    # twitter:
+    # weibo:
+    email:    mailto:shoner@live.co.kr
