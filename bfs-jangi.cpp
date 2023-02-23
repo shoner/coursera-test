@@ -56,7 +56,7 @@ int BFS()
         for (int i=0; i<8; i++) {
             int nr = now.r + dr[i];
             int nc = now.c + dc[i];
-            if (nr<1 || nr>N || nc<1 || nc > M) continue;  // 범위 check
+            if (nr<1 || nr>N || nc<1 || nc>M) continue;  // 범위 check
             if (chk[nr][nc] == 0) {
                 q.push({nr,nc,now.dist+1});
                 chk[nr][nc] = 1;
