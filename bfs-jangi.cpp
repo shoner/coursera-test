@@ -37,6 +37,7 @@ int chk[100+10][100+10]; // 방문 여부
 int N, M; // 장기판 크기
 int R, C, S, K; // 말과 졸의 위치
 int sol; // 최소 이동 횟수
+
 // 말의 이동 방향
 int dr[] = {2, 1, -1, -2, -2, -1, 1, 2};
 int dc[] = {-1, -2, -2, -1, 1, 2, 2, 1};
@@ -52,9 +53,9 @@ int BFS()
         if (now.r == S && now.c == K) return now.dist; // 졸을 잡은 경우 현재까지 거리 return
          
         // 말이 이동할 수 있는 곳을 queue에 push
-        for (int k=0; k<8; k++) {
-            int nr = now.r + dr[k];
-            int nc = now.c + dc[k];
+        for (int i=0; i<8; i++) {
+            int nr = now.r + dr[i];
+            int nc = now.c + dc[i];
             if (nr<1 || nr>N || nc<1 || nc > M) continue;  // 범위 check
             if (chk[nr][nc] == 0) {
                 q.push({nr,nc,now.dist+1});
